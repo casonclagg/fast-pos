@@ -1,4 +1,4 @@
-import Rhymez from '../src/rhymez';
+import Rhymez from '../src/fast-pos';
 import {
     assert
 } from 'chai'

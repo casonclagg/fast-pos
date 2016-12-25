@@ -13,7 +13,7 @@
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "build": "babel src --out-dir lib && cp ./src/data/ ./lib/data/",
+    "build": "babel src --out-dir lib && cp ./src/data/* ./lib/data/",
     "test-es5": "npm run build && babel test --out-dir test-es5 && sed -i '.bak' 's/\\/src\\//\\/lib\\//' test-es5/*.js",
     "test": "npm run build && mocha --ui tdd --timeout 10000 --compilers js:babel-core/register --require test/mocha-babel",
     "prepublish": "npm run build"

@@ -7,7 +7,9 @@ import {
 suite('FastPOS:', () => {
 
     test('rhymez loads', () => {
-
+        let fpos = new FastPOS()
+        let x = fpos.partsOfSpeech("I am the one who knocks.")
+        assert.isTrue(_.includes(x[0].pos, "N"))
     })
 
 })
