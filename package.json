@@ -1,7 +1,7 @@
 {
   "name": "fast-pos",
   "description": "Fast parts of speech for javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/fast-pos.js",
   "devDependencies": {
     "babel-cli": "^6.2.4",
