@@ -38,6 +38,7 @@ export default class FastPOS {
     _noPunc(word) {
         if(!word || word.length == 0) return null
         word = word.toLowerCase()
-        return word.replace(/\!|\.|\?|\"|\'|\,\s/ig, "")
+        let nopunc = word.replace(/\!|\.|\?|\"|\'|\,\s/ig, "")
+        return nopunc
     }
 }
