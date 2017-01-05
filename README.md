@@ -4,6 +4,10 @@ Fast parts of speech for javascript.
 
 #### Usage
 
+```shell
+npm i -S fast-pos
+```
+
 ```javascript
 import FastPOS from 'fast-pos'
 
